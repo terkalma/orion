@@ -7,6 +7,9 @@ orion.collection = function(name, options) {
   check(name, String);
   check(options, Object);
 
+
+  console.log("Creating Collection %s", name);
+
   var collection = new Mongo.Collection(name, options);
 
   options = _.extend({

@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'orionjs:core',
+  name: 'nimble:core',
   summary: 'Orion',
   version: '1.4.0',
   git: 'https://github.com/orionjs/orion'
